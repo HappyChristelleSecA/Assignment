@@ -1,0 +1,141 @@
+
+
+/* key frame annimation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+       /* general body style */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color:rgb(113, 87, 87);
+            font-size: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            animation: fadeIn 1s ease-out;
+            background-color:#AACC8E;
+           
+    
+        }
+       /* about style */
+        #about{
+            justify-content: center;
+        }
+        body h1{
+            color: white;
+            font-family: "Lucida Handwriting", cursive;
+        }
+
+/* header style */
+        header {
+            background-color: #595151;
+            padding: 20px;
+            text-align: center;
+            animation: slideIn 0.5s ease-out;
+           
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        a{
+            color: white;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+            animation: slideIn 0.5s ease-out;
+            animation-delay: calc(var(--animation-order) * 0.1s);
+         
+        }
+/* typography style */
+        h1, h2, h3 {
+            color: white;
+            font-family: Papyrus, fantasy;
+          
+        }
+/* table style */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        th, td {
+            border: 3px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            color: darkgreen;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: rgb(95, 118, 88);
+        }
+/* form style */
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            animation: slideIn 0.5s ease-out;
+            color: forestgreen;
+        }
+       
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+/* button style */
+        button {
+            padding: 10px 20px;
+            border: 2px solid;
+            color: aliceblue;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+            background-image: linear-gradient(to right, #98785c, #AACC8E);
+        }
+
+/* recipe grid style */
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .recipe-grid img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            animation: fadeIn 5s ease-out;
+            animation-delay: calc(var(--animation-order) * 0.2s);
+            cursor: pointer;
+            transform: translateY(-5px);
+        }
+/* section style */
+        section {
+            animation: slideIn 3s ease-out;
+            animation-delay: calc(var(--animation-order) * 0.1s);
+        }
+        /* footer style */
+        footer{
+          text-align: center;
+          color: white;
+          background-color: #595151;
+          height: 60px;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+    
