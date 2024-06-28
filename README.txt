@@ -39,7 +39,7 @@ This project is a personal website dedicated to showcasing my cooking hobby, wit
 - Fade-in effect for the body and table
 - Slide-in effect for header, navigation items, and sections
 
-## Setup and Installation
+----------Setup and Installation-------------
 1. Clone the repository to your local machine
 2. Open 'index.html' in a web browser to view the website
 
