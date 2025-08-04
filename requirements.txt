@@ -1,0 +1,36 @@
+# VirtualBox Chat Application Requirements
+# Project by: Faridah Adebajo (n01676123) & Happy Christelle (n01686171)
+
+# Python Version Required: 3.8 or higher
+
+# Built-in Python Libraries Used (No additional installations required):
+# - socket: Network communication
+# - threading: Multi-threaded server support
+# - tkinter: GUI framework (included with Python)
+# - datetime: Timestamp formatting
+# - sys: System operations
+# - signal: Graceful shutdown handling
+# - time: Sleep and timing functions
+
+# Note: This project uses only Python standard library modules.
+# No pip installations are required!
+
+# For development/testing (optional):
+# pytest>=6.0.0
+# flake8>=3.8.0
+
+# Windows-specific notes:
+# - Ensure Python is added to PATH during installation
+# - tkinter is included with standard Python installation on Windows
+# - No additional GUI libraries needed
+
+# VirtualBox Network Requirements:
+# - Internal Network configuration
+# - Static IP addresses (192.168.100.x/24)
+# - Port 12345 open (default, configurable)
+
+# System Requirements:
+# - Windows 10/11 (VM)
+# - Python 3.8+
+# - Minimum 2GB RAM per VM
+# - Network connectivity between VMs
